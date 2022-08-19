@@ -1,10 +1,12 @@
-package com.example.nested_recyclerview
+package com.example.nested_recyclerview.activities
 
 import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.nested_recyclerview.models.ParentModel
+import com.example.nested_recyclerview.adapters.ParentRVAdapter
 import com.example.nested_recyclerview.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

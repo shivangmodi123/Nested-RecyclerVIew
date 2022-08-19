@@ -1,11 +1,14 @@
-package com.example.nested_recyclerview
+package com.example.nested_recyclerview.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.nested_recyclerview.R
 import com.example.nested_recyclerview.databinding.ItemsParentRecyclerviewBinding
+import com.example.nested_recyclerview.models.ChildModel
+import com.example.nested_recyclerview.models.ParentModel
 
 
 class ParentRVAdapter(

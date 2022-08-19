@@ -1,10 +1,11 @@
-package com.example.nested_recyclerview
+package com.example.nested_recyclerview.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.nested_recyclerview.databinding.ItemsChildRecyclerviewBinding
+import com.example.nested_recyclerview.models.ChildModel
 
 class ChildRVAdapter(
     private val childModelArrayList: ArrayList<ChildModel>,
